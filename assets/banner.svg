@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="AgentPopulation: Road to 10M open API endpoints for AI agents. agentpopulation.com.">
+<title>AgentPopulation: Road to 10M open API endpoints for AI agents. agentpopulation.com.</title>
+<defs>
+<linearGradient id="stripe" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6366F1"/><stop offset="0.5" stop-color="#EA580C"/><stop offset="1" stop-color="#16A34A"/></linearGradient>
+<clipPath id="card"><rect x="1" y="1" width="1278" height="418" rx="24"/></clipPath>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.3" fill="#0F172A" fill-opacity="0.10"/></pattern>
+</defs>
+<rect x="1" y="1" width="1278" height="418" rx="24" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+<rect x="0" y="0" width="1280" height="420" fill="url(#dots)" clip-path="url(#card)"/>
+<rect x="0" y="0" width="1280" height="8" fill="url(#stripe)" clip-path="url(#card)"/>
+<g transform="translate(60 34) scale(0.7500)"><circle cx="18" cy="24" r="10.5" fill="none" stroke="#0F172A" stroke-width="5"/><rect x="35.5" y="13.5" width="21" height="21" rx="6" fill="none" stroke="#0F172A" stroke-width="5"/><circle cx="32" cy="50" r="5.5" fill="#0284C7"/></g>
+<text x="122" y="68" font-size="18" font-weight="700" letter-spacing="2" fill="#4F46E5">AGENTPOPULATION</text>
+<text x="62" y="170" font-size="88" font-weight="800" fill="#0F172A">Road to 10M</text>
+<text x="64" y="212" font-size="28" font-weight="800" fill="#0F172A">open API endpoints for AI agents</text>
+<rect x="64" y="236" width="600" height="18" rx="9" fill="#E2E8F0"/>
+<rect x="64" y="236" width="424" height="18" rx="9" fill="#6366F1"/>
+<text x="64" y="286" font-size="19" font-weight="700" fill="#0F172A">So far: 7,072,562 passed (70%)</text>
+<text x="664" y="286" font-size="15" fill="#0F172A" fill-opacity="0.6" text-anchor="end">Target: 10M+</text>
+<text x="64" y="318" font-size="16" fill="#0F172A" fill-opacity="0.7">This release: 24 packs · 3,533,583 endpoints that passed a keyless data call</text>
+<rect x="820" y="52" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(832 64) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M20 48h26a11 11 0 0 0 1-22 15 15 0 0 0-29-3 11 11 0 0 0 2 25z"/></g>
+<rect x="888" y="52" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(900 64) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M16 10h32a4 4 0 0 1 4 4v32H12V14a4 4 0 0 1 4-4z"/><path d="M12 32h40"/><path d="M22 46v6"/><path d="M42 46v6"/><path d="M24 20h16"/></g>
+<rect x="956" y="52" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(968 64) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M6 26q6.5-8 13 0t13 0t13 0t13 0"/><path d="M6 40q6.5-8 13 0t13 0t13 0t13 0"/></g>
+<rect x="1024" y="52" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1036 64) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M8 56h48"/><path d="M10 46l12-12 10 8 20-22"/><path d="M44 20h8v8"/></g>
+<rect x="1092" y="52" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1104 64) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M32 58s18-18 18-32a18 18 0 0 0-36 0c0 14 18 32 18 32z"/><circle cx="32" cy="26" r="6"/></g>
+<rect x="1160" y="52" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1172 64) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M8 24L32 10l24 14"/><path d="M14 26v24"/><path d="M26 26v24"/><path d="M38 26v24"/><path d="M50 26v24"/><path d="M6 54h52"/></g>
+<rect x="820" y="120" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(832 132) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M8 56h48"/><path d="M15 56V36"/><path d="M27 56V22"/><path d="M39 56V30"/><path d="M51 56V12"/></g>
+<rect x="888" y="120" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(900 132) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M6 26q6.5-8 13 0t13 0t13 0t13 0"/><path d="M6 40q6.5-8 13 0t13 0t13 0t13 0"/></g>
+<rect x="956" y="120" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(968 132) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="15" r="5"/><path d="M32 20v36"/><path d="M22 28h20"/><path d="M12 38a20 18 0 0 0 40 0"/></g>
+<rect x="1024" y="120" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1036 132) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M12 52C12 26 28 12 54 10c0 26-14 42-40 42z"/><path d="M12 52l22-22"/></g>
+<rect x="1092" y="120" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1104 132) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M6 24h32a7 7 0 1 0-7-7"/><path d="M6 34h44a7 7 0 1 1-7 7"/><path d="M6 44h20"/></g>
+<rect x="1160" y="120" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1172 132) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M32 58s18-18 18-32a18 18 0 0 0-36 0c0 14 18 32 18 32z"/><circle cx="32" cy="26" r="6"/></g>
+<rect x="820" y="188" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(832 200) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M24 10c-6 0-8 3-8 8v8c0 3-2 6-6 6 4 0 6 3 6 6v8c0 5 2 8 8 8"/><path d="M40 10c6 0 8 3 8 8v8c0 3 2 6 6 6-4 0-6 3-6 6v8c0 5-2 8-8 8"/></g>
+<rect x="888" y="188" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(900 200) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M26 10h12v16h16v12H38v16H26V38H10V26h16z"/></g>
+<rect x="956" y="188" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(968 200) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M24 6h16"/><path d="M28 6v18L12 52a4 4 0 0 0 4 6h32a4 4 0 0 0 4-6L36 24V6"/><path d="M18 42h28"/></g>
+<rect x="1024" y="188" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1036 200) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M32 8l26 46H6z"/><path d="M32 26v14"/><circle cx="32" cy="47" r="2.2" fill="#4F46E5" stroke="none"/></g>
+<rect x="1092" y="188" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1104 200) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6c4 10 16 16 16 30a16 16 0 0 1-32 0c0-8 4-12 8-16 0 6 2 9 5 10-2-10 1-17 3-24z"/></g>
+<rect x="1160" y="188" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1172 200) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M36 4L14 36h16l-4 24 24-34H34z"/></g>
+<rect x="820" y="256" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(832 268) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M32 6c3 0 4 4 4 8v12l20 10v6l-20-6v10l6 5v4l-10-3-10 3v-4l6-5V36l-20 6v-6l20-10V14c0-4 1-8 4-8z"/></g>
+<rect x="888" y="256" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(900 268) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M24 6h16a4 4 0 0 1 4 4v44a4 4 0 0 1-4 4H24a4 4 0 0 1-4-4V10a4 4 0 0 1 4-4z"/><circle cx="32" cy="18" r="4.5"/><circle cx="32" cy="32" r="4.5"/><circle cx="32" cy="46" r="4.5"/></g>
+<rect x="956" y="256" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(968 268) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h28a10 10 0 0 1 10 10v28a10 10 0 0 1-10 10H18A10 10 0 0 1 8 46V18A10 10 0 0 1 18 8z"/><path d="M26 46V20h9a7 7 0 0 1 0 14h-9"/></g>
+<rect x="1024" y="256" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1036 268) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M4 34h12l5-14 8 28 7-22 5 8h19"/></g>
+<rect x="1092" y="256" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1104 268) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M8 54l16-28h16l16 28z"/><path d="M28 20c-3-5 3-8 1-14"/><path d="M36 20c2-5 7-6 6-11"/></g>
+<rect x="1160" y="256" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
+<g transform="translate(1172 268) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="42" r="10"/><circle cx="48" cy="42" r="10"/><path d="M16 42l9-16h14l9 16"/><path d="M25 26l11 16h-20"/><path d="M34 18h7"/></g>
+<text x="1216" y="334" font-size="14" fill="#0F172A" fill-opacity="0.6" text-anchor="end">24 topic packs · CC BY 4.0</text>
+<line x1="64" y1="366" x2="1216" y2="366" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="64" y="398" font-size="18" font-weight="700" fill="#C2410C">agentpopulation.com</text>
+<text x="270" y="398" font-size="15" fill="#0F172A" fill-opacity="0.6">@agentpopulation on X</text>
+</svg>

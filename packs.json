@@ -1,0 +1,2496 @@
+{
+  "name": "10m-open-apis-for-ai-agents",
+  "old_name": "2-million-api-endpoint-pack",
+  "target": {
+    "endpoints": 10000000,
+    "text": "Target: 10 million+ open API endpoints that pass a keyless API call.",
+    "note": "The target of the collection, not the content of these packs."
+  },
+  "so_far": {
+    "passed": 7072562,
+    "pct": 70,
+    "text": "So far: 7,072,562 passed (70%).",
+    "note": "The owner's figures across every test run so far, given to the build as a parameter."
+  },
+  "snapshot": "2026-11-15",
+  "tested": 5129834,
+  "passed": 3726509,
+  "unique_urls_in_packs": 3533583,
+  "headline": "road",
+  "note": "On the date in last_tested (IST), one GET to the URL, sent with no key, returned HTTP 2xx and a non-empty data body. HTML pages and empty results did not pass. The format column records what came back. This is a test result for that date, not a promise that the URL answers today. Licences, terms, rate limits, accuracy and freshness were not reviewed. Endpoints are URLs, not separate APIs; many share one service.",
+  "licence": "CC BY 4.0: credit AgentPopulation and link https://agentpopulation.com",
+  "columns": [
+    "url",
+    "title",
+    "service",
+    "host",
+    "country",
+    "category",
+    "subcategory",
+    "format",
+    "tags",
+    "last_tested"
+  ],
+  "packs": [
+    {
+      "repo": "190k-weather-apis-for-agents",
+      "old_name": "weather-api-endpoints",
+      "title": "Weather API endpoints",
+      "short": "Weather",
+      "emoji": "🌦️",
+      "forBuilders": "Build a weather agent or app",
+      "blurb": "Station observations, forecasts, climate series and air quality.",
+      "rows": 190644,
+      "services": 9237,
+      "country_codes": 251,
+      "single_country": null,
+      "agent_ready": 130964,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 17565
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 78138
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 66307
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 190644
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Weather_API_Services_AgentPopulation.csv",
+          "rows": 9237,
+          "url": "https://raw.githubusercontent.com/agentpopulation/190k-weather-apis-for-agents/main/data/Weather_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Weather_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/190k-weather-apis-for-agents/main/data/Weather_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Weather_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/190k-weather-apis-for-agents/main/data/Weather_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Weather_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 190644,
+        "bytes": 7234401,
+        "sha256": "b5402d9fffb7d414c99062dd1feb4ccebac0244ecc6e4939c6acc8f8c964e8f5",
+        "url": "https://github.com/agentpopulation/190k-weather-apis-for-agents/releases/latest/download/Weather_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/190k-weather-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/190k-weather-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 9199,
+        "tested": 2336527,
+        "passed": 1971385,
+        "passed_pct": 84,
+        "line": "Across these services: 2.3M tested · 84% passed a keyless call",
+        "note": "Counted over the 9,199 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "270k-transit-apis-for-agents",
+      "old_name": "transit-api-endpoints",
+      "title": "Transit API endpoints",
+      "short": "Transit",
+      "emoji": "🚆",
+      "forBuilders": "Build a transport agent or app",
+      "blurb": "Bus, rail and bike-share feeds, traffic and parking.",
+      "rows": 271658,
+      "services": 14930,
+      "country_codes": 249,
+      "single_country": null,
+      "agent_ready": 196830,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 16136
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 33256
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 38441
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 271658
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Transit_API_Services_AgentPopulation.csv",
+          "rows": 14930,
+          "url": "https://raw.githubusercontent.com/agentpopulation/270k-transit-apis-for-agents/main/data/Transit_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Transit_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/270k-transit-apis-for-agents/main/data/Transit_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Transit_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/270k-transit-apis-for-agents/main/data/Transit_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Transit_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 271658,
+        "bytes": 11944303,
+        "sha256": "7a6583964af1e737cb122e804fc23f216e1000353d6963cb75545bcd1b247277",
+        "url": "https://github.com/agentpopulation/270k-transit-apis-for-agents/releases/latest/download/Transit_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/270k-transit-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/270k-transit-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 14816,
+        "tested": 2702059,
+        "passed": 2244375,
+        "passed_pct": 83,
+        "line": "Across these services: 2.7M tested · 83% passed a keyless call",
+        "note": "Counted over the 14,816 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "270k-water-apis-for-agents",
+      "old_name": "water-api-endpoints",
+      "title": "Rivers and water API endpoints",
+      "short": "Rivers & Water",
+      "emoji": "🌊",
+      "forBuilders": "Build a river, flood or tide agent or app",
+      "blurb": "River gauges, floods, tides, oceans and groundwater.",
+      "rows": 279947,
+      "services": 12045,
+      "country_codes": 250,
+      "single_country": null,
+      "agent_ready": 226036,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 42576
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 43976
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 113774
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 279947
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Water_API_Services_AgentPopulation.csv",
+          "rows": 12045,
+          "url": "https://raw.githubusercontent.com/agentpopulation/270k-water-apis-for-agents/main/data/Water_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Water_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/270k-water-apis-for-agents/main/data/Water_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Water_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/270k-water-apis-for-agents/main/data/Water_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Water_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 279947,
+        "bytes": 10757987,
+        "sha256": "4b8ce2b35ba71e69a4a05d6aabeae38a5adff85cf8da1ef372fc92447becf623",
+        "url": "https://github.com/agentpopulation/270k-water-apis-for-agents/releases/latest/download/Water_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/270k-water-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/270k-water-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 12018,
+        "tested": 2461635,
+        "passed": 2037645,
+        "passed_pct": 82,
+        "line": "Across these services: 2.4M tested · 82% passed a keyless call",
+        "note": "Counted over the 12,018 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "130k-finance-economy-apis-for-agents",
+      "old_name": "finance-economy-api-endpoints",
+      "title": "Finance and economy API endpoints",
+      "short": "Finance & Economy",
+      "emoji": "📈",
+      "forBuilders": "Build an economy or statistics agent or app",
+      "blurb": "Economic indicators, official statistics tables and finance datasets.",
+      "rows": 130603,
+      "services": 4417,
+      "country_codes": 251,
+      "single_country": null,
+      "agent_ready": 89012,
+      "range": "11–15 Nov 2026",
+      "tested_from": "2026-11-11",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 18722
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 38193
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 25354
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 130603
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Finance_Economy_API_Services_AgentPopulation.csv",
+          "rows": 4417,
+          "url": "https://raw.githubusercontent.com/agentpopulation/130k-finance-economy-apis-for-agents/main/data/Finance_Economy_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Finance_Economy_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/130k-finance-economy-apis-for-agents/main/data/Finance_Economy_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Finance_Economy_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/130k-finance-economy-apis-for-agents/main/data/Finance_Economy_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Finance_Economy_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 130603,
+        "bytes": 5430858,
+        "sha256": "76e7549a5f9f5db607de7e60808a4ba785ddbfbf98260b399b2af1d5ac156e9f",
+        "url": "https://github.com/agentpopulation/130k-finance-economy-apis-for-agents/releases/latest/download/Finance_Economy_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/130k-finance-economy-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/130k-finance-economy-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 4370,
+        "tested": 1863760,
+        "passed": 1583434,
+        "passed_pct": 84,
+        "line": "Across these services: 1.8M tested · 84% passed a keyless call",
+        "note": "Counted over the 4,370 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "130k-india-apis-for-agents",
+      "old_name": "india-api-endpoints",
+      "title": "India API endpoints",
+      "short": "India",
+      "emoji": "🧭",
+      "forBuilders": "Build an agent or app for India",
+      "blurb": "Endpoints tagged country IN: data about India or served from Indian domains.",
+      "rows": 131489,
+      "services": 2180,
+      "country_codes": 1,
+      "single_country": "IN",
+      "agent_ready": 32824,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 261
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 8289
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 6345
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 131489
+        }
+      ],
+      "files": [
+        {
+          "name": "data/India_API_Services_AgentPopulation.csv",
+          "rows": 2180,
+          "url": "https://raw.githubusercontent.com/agentpopulation/130k-india-apis-for-agents/main/data/India_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/India_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/130k-india-apis-for-agents/main/data/India_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/India_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/130k-india-apis-for-agents/main/data/India_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "India_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 131489,
+        "bytes": 2222718,
+        "sha256": "234c6ce26057ff97e9a6977c4437e8847808901e2dda3cb860e23e1252fe695c",
+        "url": "https://github.com/agentpopulation/130k-india-apis-for-agents/releases/latest/download/India_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/130k-india-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/130k-india-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 2180,
+        "tested": 264517,
+        "passed": 233757,
+        "passed_pct": 88,
+        "line": "Across these services: 260k tested · 88% passed a keyless call",
+        "note": "Counted over the 2,180 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "1.3m-government-open-data-apis",
+      "old_name": "government-open-data-api-endpoints",
+      "title": "Government open data API endpoints",
+      "short": "Government data",
+      "emoji": "🏛️",
+      "forBuilders": "Build civic and city agents and apps on open-data portals",
+      "blurb": "City, regional and national open-data portals: dataset records, municipal files and civic map layers.",
+      "rows": 1329192,
+      "services": 57593,
+      "country_codes": 250,
+      "single_country": null,
+      "agent_ready": 1008314,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 120356
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 27403
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 311011
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 1329192
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Government_Open_Data_API_Services_AgentPopulation.csv",
+          "rows": 57593,
+          "url": "https://raw.githubusercontent.com/agentpopulation/1.3m-government-open-data-apis/main/data/Government_Open_Data_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Government_Open_Data_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/1.3m-government-open-data-apis/main/data/Government_Open_Data_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Government_Open_Data_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/1.3m-government-open-data-apis/main/data/Government_Open_Data_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Government_Open_Data_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 1329192,
+        "bytes": 52239418,
+        "sha256": "b4affa803ef59cb7241f5e8b656a860b0ed3d2870315a6086ee0fbc41ab60625",
+        "url": "https://github.com/agentpopulation/1.3m-government-open-data-apis/releases/latest/download/Government_Open_Data_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/1.3m-government-open-data-apis/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/1.3m-government-open-data-apis/main/recommended.json",
+      "services_tested": {
+        "services": 56916,
+        "tested": 3166059,
+        "passed": 2593901,
+        "passed_pct": 81,
+        "line": "Across these services: 3.1M tested · 81% passed a keyless call",
+        "note": "Counted over the 56,916 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "290k-statistics-apis-for-agents",
+      "old_name": "statistics-api-endpoints",
+      "title": "Statistics and census API endpoints",
+      "short": "Statistics",
+      "emoji": "📊",
+      "forBuilders": "Answer questions with official statistics and census tables",
+      "blurb": "National statistics tables, census and population data, World Bank, UN SDG and Eurostat indicators.",
+      "rows": 292624,
+      "services": 27495,
+      "country_codes": 247,
+      "single_country": null,
+      "agent_ready": 206713,
+      "range": "14–15 Nov 2026",
+      "tested_from": "2026-11-14",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 28083
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 15603
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 84859
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 116536
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Statistics_API_Services_AgentPopulation.csv",
+          "rows": 27495,
+          "url": "https://raw.githubusercontent.com/agentpopulation/290k-statistics-apis-for-agents/main/data/Statistics_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Statistics_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/290k-statistics-apis-for-agents/main/data/Statistics_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Statistics_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/290k-statistics-apis-for-agents/main/data/Statistics_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Statistics_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 292624,
+        "bytes": 12572789,
+        "sha256": "314f7d6893a4fcaae029d46acfe2e061ff84d30371a7e57930b3c38093d885f4",
+        "url": "https://github.com/agentpopulation/290k-statistics-apis-for-agents/releases/latest/download/Statistics_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/290k-statistics-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/290k-statistics-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 27498,
+        "tested": 2000495,
+        "passed": 1688465,
+        "passed_pct": 84,
+        "line": "Across these services: 2.0M tested · 84% passed a keyless call",
+        "note": "Counted over the 27,498 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "86k-oceans-apis-for-agents",
+      "old_name": "oceans-api-endpoints",
+      "title": "Ocean and marine API endpoints",
+      "short": "Oceans & Marine",
+      "emoji": "🐋",
+      "forBuilders": "Build a sea-state, buoy or marine-data tool",
+      "blurb": "Ocean datasets, sea level and tide gauges, buoys, sea temperature and marine map layers.",
+      "rows": 86107,
+      "services": 2241,
+      "country_codes": 129,
+      "single_country": null,
+      "agent_ready": 68292,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 1409
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 8394
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 65097
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 86107
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Ocean_Marine_API_Services_AgentPopulation.csv",
+          "rows": 2241,
+          "url": "https://raw.githubusercontent.com/agentpopulation/86k-oceans-apis-for-agents/main/data/Ocean_Marine_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Ocean_Marine_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/86k-oceans-apis-for-agents/main/data/Ocean_Marine_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Ocean_Marine_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/86k-oceans-apis-for-agents/main/data/Ocean_Marine_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Ocean_Marine_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 86107,
+        "bytes": 3051850,
+        "sha256": "696976e1bb225d1638e671fd4cccdd8906bd81528a4d3227f8aedc594f1ae17c",
+        "url": "https://github.com/agentpopulation/86k-oceans-apis-for-agents/releases/latest/download/Ocean_Marine_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/86k-oceans-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/86k-oceans-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 2239,
+        "tested": 1158763,
+        "passed": 977965,
+        "passed_pct": 84,
+        "line": "Across these services: 1.1M tested · 84% passed a keyless call",
+        "note": "Counted over the 2,239 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "24k-maritime-apis-for-agents",
+      "old_name": "maritime-api-endpoints",
+      "title": "Maritime API endpoints",
+      "short": "Maritime",
+      "emoji": "⚓",
+      "forBuilders": "Build a ship, port or harbour tool",
+      "blurb": "Port calls, port and ferry layers, nautical chart features, shipping statistics and German marine monitoring files.",
+      "rows": 24827,
+      "services": 3457,
+      "country_codes": 73,
+      "single_country": null,
+      "agent_ready": 14548,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 5035
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 5056
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 1390
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 24827
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Maritime_API_Services_AgentPopulation.csv",
+          "rows": 3457,
+          "url": "https://raw.githubusercontent.com/agentpopulation/24k-maritime-apis-for-agents/main/data/Maritime_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Maritime_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/24k-maritime-apis-for-agents/main/data/Maritime_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Maritime_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/24k-maritime-apis-for-agents/main/data/Maritime_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Maritime_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 24827,
+        "bytes": 1170857,
+        "sha256": "7f065f7df693543e8b5533d6d0141028a30405162b9be23b36fef1c6b3b9b4f4",
+        "url": "https://github.com/agentpopulation/24k-maritime-apis-for-agents/releases/latest/download/Maritime_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/24k-maritime-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/24k-maritime-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 3460,
+        "tested": 1123406,
+        "passed": 933997,
+        "passed_pct": 83,
+        "line": "Across these services: 1.1M tested · 83% passed a keyless call",
+        "note": "Counted over the 3,460 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "170k-environment-apis-for-agents",
+      "old_name": "environment-api-endpoints",
+      "title": "Environment API endpoints",
+      "short": "Environment",
+      "emoji": "🌿",
+      "forBuilders": "Track pollution, biodiversity and land",
+      "blurb": "Species records, air quality, radiation, emissions, waste, soils, forests and protected areas.",
+      "rows": 174406,
+      "services": 11421,
+      "country_codes": 251,
+      "single_country": null,
+      "agent_ready": 117721,
+      "range": "14–15 Nov 2026",
+      "tested_from": "2026-11-14",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 34035
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 5880
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 13026
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 174406
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Environment_API_Services_AgentPopulation.csv",
+          "rows": 11421,
+          "url": "https://raw.githubusercontent.com/agentpopulation/170k-environment-apis-for-agents/main/data/Environment_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Environment_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/170k-environment-apis-for-agents/main/data/Environment_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Environment_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/170k-environment-apis-for-agents/main/data/Environment_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Environment_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 174406,
+        "bytes": 8249580,
+        "sha256": "1c3a65098508df0afee82bbfebab89b0921cf35239b85738f5b434a64a7948de",
+        "url": "https://github.com/agentpopulation/170k-environment-apis-for-agents/releases/latest/download/Environment_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/170k-environment-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/170k-environment-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 11428,
+        "tested": 2308339,
+        "passed": 1934278,
+        "passed_pct": 83,
+        "line": "Across these services: 2.3M tested · 83% passed a keyless call",
+        "note": "Counted over the 11,428 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "20k-air-quality-apis-for-agents",
+      "old_name": "air-quality-api-endpoints",
+      "title": "Air quality API endpoints",
+      "short": "Air quality",
+      "emoji": "🌫️",
+      "forBuilders": "Build an air-quality widget or agent",
+      "blurb": "Pollutant readings by city and station, PM2.5 by country, pollution maps and yearly series.",
+      "rows": 20830,
+      "services": 1511,
+      "country_codes": 247,
+      "single_country": null,
+      "agent_ready": 10830,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 8148
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 4751
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 10260
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 20830
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Air_Quality_API_Services_AgentPopulation.csv",
+          "rows": 1511,
+          "url": "https://raw.githubusercontent.com/agentpopulation/20k-air-quality-apis-for-agents/main/data/Air_Quality_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Air_Quality_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/20k-air-quality-apis-for-agents/main/data/Air_Quality_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Air_Quality_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/20k-air-quality-apis-for-agents/main/data/Air_Quality_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Air_Quality_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 20830,
+        "bytes": 986260,
+        "sha256": "8f64aadfb58ba85135aa4a7ba67732a6d7b2d555a4c63de8f521800d485854e8",
+        "url": "https://github.com/agentpopulation/20k-air-quality-apis-for-agents/releases/latest/download/Air_Quality_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/20k-air-quality-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/20k-air-quality-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 1513,
+        "tested": 901904,
+        "passed": 754565,
+        "passed_pct": 83,
+        "line": "Across these services: 900k tested · 83% passed a keyless call",
+        "note": "Counted over the 1,513 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "380k-maps-gis-apis-for-agents",
+      "old_name": "maps-gis-api-endpoints",
+      "title": "Maps and GIS API endpoints",
+      "short": "Maps & GIS",
+      "emoji": "🗺️",
+      "forBuilders": "Add map layers and place data to an agent or app",
+      "blurb": "Map layers, administrative boundaries, parcels, land-use plans, gazetteers and postal codes.",
+      "rows": 387310,
+      "services": 18772,
+      "country_codes": 247,
+      "single_country": null,
+      "agent_ready": 247162,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 70229
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 98806
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 69099
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 387310
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Maps_GIS_API_Services_AgentPopulation.csv",
+          "rows": 18772,
+          "url": "https://raw.githubusercontent.com/agentpopulation/380k-maps-gis-apis-for-agents/main/data/Maps_GIS_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Maps_GIS_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/380k-maps-gis-apis-for-agents/main/data/Maps_GIS_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Maps_GIS_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/380k-maps-gis-apis-for-agents/main/data/Maps_GIS_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Maps_GIS_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 387310,
+        "bytes": 14850522,
+        "sha256": "d652abd514ced1278ddc88aaf6ed328566bb6ff49572c311b4e11a97807ac5b9",
+        "url": "https://github.com/agentpopulation/380k-maps-gis-apis-for-agents/releases/latest/download/Maps_GIS_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/380k-maps-gis-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/380k-maps-gis-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 18754,
+        "tested": 2398087,
+        "passed": 1971881,
+        "passed_pct": 82,
+        "line": "Across these services: 2.3M tested · 82% passed a keyless call",
+        "note": "Counted over the 18,754 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "2.5m-agent-ready-apis",
+      "old_name": "agent-ready-api-endpoints",
+      "title": "Agent-ready API endpoints",
+      "short": "Agent-ready",
+      "emoji": "🤖",
+      "forBuilders": "Give an AI agent endpoints it can call with no key and read as JSON",
+      "blurb": "Endpoints across topics that needed no key and answered with a JSON body: readings, indicators, records and map layers.",
+      "rows": 2518343,
+      "services": 65954,
+      "country_codes": 251,
+      "single_country": null,
+      "agent_ready": 2518343,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 84731
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 81911
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 206812
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 2518343
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Agent_Ready_API_Services_AgentPopulation.csv",
+          "rows": 65954,
+          "url": "https://raw.githubusercontent.com/agentpopulation/2.5m-agent-ready-apis/main/data/Agent_Ready_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Agent_Ready_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/2.5m-agent-ready-apis/main/data/Agent_Ready_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Agent_Ready_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/2.5m-agent-ready-apis/main/data/Agent_Ready_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Agent_Ready_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 2518343,
+        "bytes": 83252712,
+        "sha256": "77bfadf95a8a9e3be870b2a8b3179f10effe05eee64ffa9518aab5dc2a1a8e1e",
+        "url": "https://github.com/agentpopulation/2.5m-agent-ready-apis/releases/latest/download/Agent_Ready_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/2.5m-agent-ready-apis/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/2.5m-agent-ready-apis/main/recommended.json",
+      "services_tested": {
+        "services": 65648,
+        "tested": 3728640,
+        "passed": 3120521,
+        "passed_pct": 83,
+        "line": "Across these services: 3.7M tested · 83% passed a keyless call",
+        "note": "Counted over the 65,648 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "96k-health-apis-for-agents",
+      "old_name": "health-api-endpoints",
+      "title": "Health API endpoints",
+      "short": "Health",
+      "emoji": "🏥",
+      "forBuilders": "Build a health, hospital or disease lookup",
+      "blurb": "Health indicators by country, hospital and clinic layers, disease and COVID-19 tables.",
+      "rows": 96866,
+      "services": 5827,
+      "country_codes": 249,
+      "single_country": null,
+      "agent_ready": 68037,
+      "range": "11–15 Nov 2026",
+      "tested_from": "2026-11-11",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 46240
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 6143
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 34865
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 96866
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Health_API_Services_AgentPopulation.csv",
+          "rows": 5827,
+          "url": "https://raw.githubusercontent.com/agentpopulation/96k-health-apis-for-agents/main/data/Health_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Health_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/96k-health-apis-for-agents/main/data/Health_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Health_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/96k-health-apis-for-agents/main/data/Health_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Health_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 96866,
+        "bytes": 4568210,
+        "sha256": "625de757e759ff0b70bdac19f971e21a55532853d317d3e5b2d9a20e24ad6f8b",
+        "url": "https://github.com/agentpopulation/96k-health-apis-for-agents/releases/latest/download/Health_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/96k-health-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/96k-health-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 5795,
+        "tested": 1863786,
+        "passed": 1596996,
+        "passed_pct": 85,
+        "line": "Across these services: 1.8M tested · 85% passed a keyless call",
+        "note": "Counted over the 5,795 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "380k-science-apis-for-agents",
+      "old_name": "science-api-endpoints",
+      "title": "Science API endpoints",
+      "short": "Science",
+      "emoji": "🔬",
+      "forBuilders": "Build a science lookup or research assistant",
+      "blurb": "Geology layers, sunrise and sunset times, space and satellite feeds, biodiversity and research data.",
+      "rows": 384890,
+      "services": 6223,
+      "country_codes": 248,
+      "single_country": null,
+      "agent_ready": 206647,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 2870
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 12574
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 54693
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 384890
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Science_API_Services_AgentPopulation.csv",
+          "rows": 6223,
+          "url": "https://raw.githubusercontent.com/agentpopulation/380k-science-apis-for-agents/main/data/Science_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Science_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/380k-science-apis-for-agents/main/data/Science_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Science_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/380k-science-apis-for-agents/main/data/Science_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Science_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 384890,
+        "bytes": 9216496,
+        "sha256": "b10132b6fb35efc891dca8444da7947399e3c55de23cfbd46b3a79396a21a0e6",
+        "url": "https://github.com/agentpopulation/380k-science-apis-for-agents/releases/latest/download/Science_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/380k-science-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/380k-science-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 6222,
+        "tested": 1418098,
+        "passed": 1221592,
+        "passed_pct": 86,
+        "line": "Across these services: 1.4M tested · 86% passed a keyless call",
+        "note": "Counted over the 6,222 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "53k-hazards-apis-for-agents",
+      "old_name": "hazards-api-endpoints",
+      "title": "Hazards and alerts API endpoints",
+      "short": "Hazards and alerts",
+      "emoji": "⚠️",
+      "forBuilders": "Build a hazard map or alert tool",
+      "blurb": "Weather alerts and warnings, hazard outlooks, flood, fire, landslide, volcano and earthquake hazard layers.",
+      "rows": 53354,
+      "services": 6381,
+      "country_codes": 190,
+      "single_country": null,
+      "agent_ready": 45322,
+      "range": "14–15 Nov 2026",
+      "tested_from": "2026-11-14",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 25041
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 283
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 6858
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 53354
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Hazards_API_Services_AgentPopulation.csv",
+          "rows": 6381,
+          "url": "https://raw.githubusercontent.com/agentpopulation/53k-hazards-apis-for-agents/main/data/Hazards_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Hazards_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/53k-hazards-apis-for-agents/main/data/Hazards_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Hazards_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/53k-hazards-apis-for-agents/main/data/Hazards_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Hazards_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 53354,
+        "bytes": 2569796,
+        "sha256": "b2e2b0a96ee49f39008d0a8d6dbcff44e9a78e6f42efd07dd944e19bcf16f00f",
+        "url": "https://github.com/agentpopulation/53k-hazards-apis-for-agents/releases/latest/download/Hazards_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/53k-hazards-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/53k-hazards-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 6385,
+        "tested": 1553675,
+        "passed": 1299358,
+        "passed_pct": 83,
+        "line": "Across these services: 1.5M tested · 83% passed a keyless call",
+        "note": "Counted over the 6,385 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "6.5k-wildfire-apis-for-agents",
+      "old_name": "wildfire-api-endpoints",
+      "title": "Wildfire API endpoints",
+      "short": "Wildfire",
+      "emoji": "🔥",
+      "forBuilders": "Build a wildfire and fire-danger map",
+      "blurb": "Wildfire perimeters and incidents, fire-danger ratings, fire weather outlooks, fire history and wildfire-risk layers.",
+      "rows": 6584,
+      "services": 1279,
+      "country_codes": 40,
+      "single_country": null,
+      "agent_ready": 6146,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 2986
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 565
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 1288
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 6584
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Wildfire_API_Services_AgentPopulation.csv",
+          "rows": 1279,
+          "url": "https://raw.githubusercontent.com/agentpopulation/6.5k-wildfire-apis-for-agents/main/data/Wildfire_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Wildfire_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/6.5k-wildfire-apis-for-agents/main/data/Wildfire_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Wildfire_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/6.5k-wildfire-apis-for-agents/main/data/Wildfire_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Wildfire_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 6584,
+        "bytes": 319914,
+        "sha256": "b092e9dc98fa0c278f2024723141374cd7e0e22a64cee56dacc82da7621dba04",
+        "url": "https://github.com/agentpopulation/6.5k-wildfire-apis-for-agents/releases/latest/download/Wildfire_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/6.5k-wildfire-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/6.5k-wildfire-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 1280,
+        "tested": 527780,
+        "passed": 438695,
+        "passed_pct": 83,
+        "line": "Across these services: 520k tested · 83% passed a keyless call",
+        "note": "Counted over the 1,280 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "72k-energy-apis-for-agents",
+      "old_name": "energy-api-endpoints",
+      "title": "Energy API endpoints",
+      "short": "Energy",
+      "emoji": "⚡",
+      "forBuilders": "Build an electricity, renewables or fuel tool",
+      "blurb": "Electricity generation, prices and grid data, renewables, power plants, fuel and energy statistics.",
+      "rows": 72606,
+      "services": 5304,
+      "country_codes": 251,
+      "single_country": null,
+      "agent_ready": 51239,
+      "range": "14–15 Nov 2026",
+      "tested_from": "2026-11-14",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 418
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 9067
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 23852
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 72606
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Energy_API_Services_AgentPopulation.csv",
+          "rows": 5304,
+          "url": "https://raw.githubusercontent.com/agentpopulation/72k-energy-apis-for-agents/main/data/Energy_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Energy_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/72k-energy-apis-for-agents/main/data/Energy_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Energy_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/72k-energy-apis-for-agents/main/data/Energy_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Energy_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 72606,
+        "bytes": 2498032,
+        "sha256": "566d691b6595b39f16d12dcdf2e0492f844ee0a159aae64e467aa429ca593d3f",
+        "url": "https://github.com/agentpopulation/72k-energy-apis-for-agents/releases/latest/download/Energy_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/72k-energy-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/72k-energy-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 5308,
+        "tested": 1728683,
+        "passed": 1469395,
+        "passed_pct": 85,
+        "line": "Across these services: 1.7M tested · 85% passed a keyless call",
+        "note": "Counted over the 5,308 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "25k-aviation-apis-for-agents",
+      "old_name": "aviation-api-endpoints",
+      "title": "Aviation API endpoints",
+      "short": "Aviation",
+      "emoji": "✈️",
+      "forBuilders": "Build an airport-weather or flight tool",
+      "blurb": "Airport weather (METAR and TAF), aircraft positions, airports, runways, airspace and air-traffic statistics.",
+      "rows": 25002,
+      "services": 2574,
+      "country_codes": 248,
+      "single_country": null,
+      "agent_ready": 23300,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 10551
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 6417
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 1725
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 25002
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Aviation_API_Services_AgentPopulation.csv",
+          "rows": 2574,
+          "url": "https://raw.githubusercontent.com/agentpopulation/25k-aviation-apis-for-agents/main/data/Aviation_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Aviation_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/25k-aviation-apis-for-agents/main/data/Aviation_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Aviation_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/25k-aviation-apis-for-agents/main/data/Aviation_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Aviation_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 25002,
+        "bytes": 886637,
+        "sha256": "f294315212af4cb01b42bd1c531ec2c632a1f9644234266e5119dbd809496255",
+        "url": "https://github.com/agentpopulation/25k-aviation-apis-for-agents/releases/latest/download/Aviation_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/25k-aviation-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/25k-aviation-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 2574,
+        "tested": 964822,
+        "passed": 813256,
+        "passed_pct": 84,
+        "line": "Across these services: 960k tested · 84% passed a keyless call",
+        "note": "Counted over the 2,574 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "24k-traffic-apis-for-agents",
+      "old_name": "traffic-api-endpoints",
+      "title": "Traffic and roadworks API endpoints",
+      "short": "Traffic",
+      "emoji": "🚦",
+      "forBuilders": "Build a traffic, roadworks or road-safety tool",
+      "blurb": "Traffic counts, road weather stations, crash and incident layers, roadworks and closures.",
+      "rows": 24641,
+      "services": 2782,
+      "country_codes": 220,
+      "single_country": null,
+      "agent_ready": 14404,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 9352
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 1080
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 9092
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 24641
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Traffic_API_Services_AgentPopulation.csv",
+          "rows": 2782,
+          "url": "https://raw.githubusercontent.com/agentpopulation/24k-traffic-apis-for-agents/main/data/Traffic_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Traffic_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/24k-traffic-apis-for-agents/main/data/Traffic_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Traffic_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/24k-traffic-apis-for-agents/main/data/Traffic_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Traffic_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 24641,
+        "bytes": 1186507,
+        "sha256": "285bd7288d892cfbaedde500b347b879215177ffd8e9c315a41fb0d25b27404d",
+        "url": "https://github.com/agentpopulation/24k-traffic-apis-for-agents/releases/latest/download/Traffic_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/24k-traffic-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/24k-traffic-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 2769,
+        "tested": 1274041,
+        "passed": 1069332,
+        "passed_pct": 83,
+        "line": "Across these services: 1.2M tested · 83% passed a keyless call",
+        "note": "Counted over the 2,769 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "12k-parking-apis-for-agents",
+      "old_name": "parking-api-endpoints",
+      "title": "Parking API endpoints",
+      "short": "Parking",
+      "emoji": "🅿️",
+      "forBuilders": "Build a parking finder",
+      "blurb": "Car parks and garages, on-street zones and meters, occupancy sensors, accessible bays and parking tickets.",
+      "rows": 12327,
+      "services": 3189,
+      "country_codes": 59,
+      "single_country": null,
+      "agent_ready": 10126,
+      "range": "11–15 Nov 2026",
+      "tested_from": "2026-11-11",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 7540
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 3266
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 2536
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 12327
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Parking_API_Services_AgentPopulation.csv",
+          "rows": 3189,
+          "url": "https://raw.githubusercontent.com/agentpopulation/12k-parking-apis-for-agents/main/data/Parking_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Parking_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/12k-parking-apis-for-agents/main/data/Parking_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Parking_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/12k-parking-apis-for-agents/main/data/Parking_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Parking_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 12327,
+        "bytes": 674283,
+        "sha256": "dec3c86673cf2374e323d78d08e47d0c3dbe8986257b469110812b5316108a98",
+        "url": "https://github.com/agentpopulation/12k-parking-apis-for-agents/releases/latest/download/Parking_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/12k-parking-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/12k-parking-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 3164,
+        "tested": 1020695,
+        "passed": 864371,
+        "passed_pct": 84,
+        "line": "Across these services: 1.0M tested · 84% passed a keyless call",
+        "note": "Counted over the 3,164 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "10k-earthquake-apis-for-agents",
+      "old_name": "earthquake-api-endpoints",
+      "title": "Earthquake API endpoints",
+      "short": "Earthquakes",
+      "emoji": "🌍",
+      "forBuilders": "Build an earthquake lookup or map",
+      "blurb": "Earthquake event queries, fault lines, seismic-hazard and liquefaction layers.",
+      "rows": 10873,
+      "services": 1324,
+      "country_codes": 144,
+      "single_country": null,
+      "agent_ready": 8696,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 5567
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 7199
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 2101
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 10873
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Earthquake_API_Services_AgentPopulation.csv",
+          "rows": 1324,
+          "url": "https://raw.githubusercontent.com/agentpopulation/10k-earthquake-apis-for-agents/main/data/Earthquake_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Earthquake_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/10k-earthquake-apis-for-agents/main/data/Earthquake_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Earthquake_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/10k-earthquake-apis-for-agents/main/data/Earthquake_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Earthquake_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 10873,
+        "bytes": 520173,
+        "sha256": "d18b360a8af477daf141f76fd159ab327acbcd0fc73d7281e1e0f8538f2a11e4",
+        "url": "https://github.com/agentpopulation/10k-earthquake-apis-for-agents/releases/latest/download/Earthquake_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/10k-earthquake-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/10k-earthquake-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 1326,
+        "tested": 635539,
+        "passed": 519782,
+        "passed_pct": 81,
+        "line": "Across these services: 630k tested · 81% passed a keyless call",
+        "note": "Counted over the 1,326 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "5.2k-volcano-tsunami-apis-for-agents",
+      "old_name": "volcano-tsunami-api-endpoints",
+      "title": "Volcano and tsunami API endpoints",
+      "short": "Volcano & tsunami",
+      "emoji": "🌋",
+      "forBuilders": "Build a volcano and tsunami hazard lookup",
+      "blurb": "Volcano locations and hazard zones, eruption lists, tsunami evacuation zones and tsunami model grids.",
+      "rows": 5280,
+      "services": 903,
+      "country_codes": 52,
+      "single_country": null,
+      "agent_ready": 3371,
+      "range": "10–15 Nov 2026",
+      "tested_from": "2026-11-10",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 2399
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 464
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 280
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 5280
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Volcano_Tsunami_API_Services_AgentPopulation.csv",
+          "rows": 903,
+          "url": "https://raw.githubusercontent.com/agentpopulation/5.2k-volcano-tsunami-apis-for-agents/main/data/Volcano_Tsunami_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Volcano_Tsunami_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/5.2k-volcano-tsunami-apis-for-agents/main/data/Volcano_Tsunami_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Volcano_Tsunami_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/5.2k-volcano-tsunami-apis-for-agents/main/data/Volcano_Tsunami_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Volcano_Tsunami_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 5280,
+        "bytes": 261310,
+        "sha256": "a8db56409e3f59b202d58da9c162661dbbed7e4691d53d0641037627f82dcbee",
+        "url": "https://github.com/agentpopulation/5.2k-volcano-tsunami-apis-for-agents/releases/latest/download/Volcano_Tsunami_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/5.2k-volcano-tsunami-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/5.2k-volcano-tsunami-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 903,
+        "tested": 402596,
+        "passed": 342090,
+        "passed_pct": 84,
+        "line": "Across these services: 400k tested · 84% passed a keyless call",
+        "note": "Counted over the 903 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    },
+    {
+      "repo": "17k-bike-share-apis-for-agents",
+      "old_name": "bike-share-api-endpoints",
+      "title": "Bike-share API endpoints",
+      "short": "Bike-share (GBFS)",
+      "emoji": "🚲",
+      "forBuilders": "Build a bike and dock availability tool",
+      "blurb": "GBFS feeds for shared bikes, e-scooters and mopeds: station status, vehicles, prices and no-parking zones.",
+      "rows": 17121,
+      "services": 281,
+      "country_codes": 60,
+      "single_country": null,
+      "agent_ready": 16136,
+      "range": "11–15 Nov 2026",
+      "tested_from": "2026-11-11",
+      "tested_to": "2026-11-15",
+      "buckets": [
+        {
+          "id": "agent",
+          "name": "Agent tools",
+          "count": 3257
+        },
+        {
+          "id": "app",
+          "name": "App features",
+          "count": 4269
+        },
+        {
+          "id": "grounding",
+          "name": "Grounding and data pipelines",
+          "count": 8390
+        },
+        {
+          "id": "evals",
+          "name": "Evals and testing",
+          "count": 17121
+        }
+      ],
+      "files": [
+        {
+          "name": "data/Bike_Share_API_Services_AgentPopulation.csv",
+          "rows": 281,
+          "url": "https://raw.githubusercontent.com/agentpopulation/17k-bike-share-apis-for-agents/main/data/Bike_Share_API_Services_AgentPopulation.csv"
+        },
+        {
+          "name": "data/Bike_Share_API_Endpoints_AgentPopulation_Sample.csv",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/17k-bike-share-apis-for-agents/main/data/Bike_Share_API_Endpoints_AgentPopulation_Sample.csv"
+        },
+        {
+          "name": "data/Bike_Share_API_Endpoints_AgentPopulation_Sample.json",
+          "rows": 1000,
+          "url": "https://raw.githubusercontent.com/agentpopulation/17k-bike-share-apis-for-agents/main/data/Bike_Share_API_Endpoints_AgentPopulation_Sample.json"
+        }
+      ],
+      "download": {
+        "name": "Bike_Share_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "rows": 17121,
+        "bytes": 447380,
+        "sha256": "dcf6b2a0f03f087ef344bea6fb2ec1a952e23d3720e48dec74e6cce62161746e",
+        "url": "https://github.com/agentpopulation/17k-bike-share-apis-for-agents/releases/latest/download/Bike_Share_API_Endpoints_AgentPopulation_Snapshot_2026-11-15.csv.gz",
+        "release": "https://github.com/agentpopulation/17k-bike-share-apis-for-agents/releases/latest"
+      },
+      "recommended": "https://raw.githubusercontent.com/agentpopulation/17k-bike-share-apis-for-agents/main/recommended.json",
+      "services_tested": {
+        "services": 258,
+        "tested": 114370,
+        "passed": 95379,
+        "passed_pct": 83,
+        "line": "Across these services: 110k tested · 83% passed a keyless call",
+        "note": "Counted over the 258 export services that this pack's rows belong to: the sum of each service's own tested count and passed count (a keyless GET that returned a data body). They cover every tested endpoint of those services, not only the rows in this pack. The figures in the line are rounded down. Over every service of the export the same sums are 5,129,846 tested and 3,726,509 passed."
+      }
+    }
+  ],
+  "live": [
+    {
+      "group": "first",
+      "name": "First packs",
+      "packs": [
+        "190k-weather-apis-for-agents",
+        "270k-transit-apis-for-agents",
+        "270k-water-apis-for-agents",
+        "130k-finance-economy-apis-for-agents",
+        "130k-india-apis-for-agents"
+      ]
+    },
+    {
+      "group": "big",
+      "name": "Big",
+      "packs": [
+        "1.3m-government-open-data-apis",
+        "290k-statistics-apis-for-agents",
+        "86k-oceans-apis-for-agents",
+        "170k-environment-apis-for-agents",
+        "380k-maps-gis-apis-for-agents",
+        "2.5m-agent-ready-apis"
+      ]
+    },
+    {
+      "group": "mid",
+      "name": "Mid-size",
+      "packs": [
+        "24k-maritime-apis-for-agents",
+        "96k-health-apis-for-agents",
+        "380k-science-apis-for-agents",
+        "53k-hazards-apis-for-agents",
+        "72k-energy-apis-for-agents",
+        "25k-aviation-apis-for-agents"
+      ]
+    },
+    {
+      "group": "small",
+      "name": "Small \"build one thing\"",
+      "packs": [
+        "20k-air-quality-apis-for-agents",
+        "6.5k-wildfire-apis-for-agents",
+        "24k-traffic-apis-for-agents",
+        "12k-parking-apis-for-agents",
+        "10k-earthquake-apis-for-agents",
+        "5.2k-volcano-tsunami-apis-for-agents",
+        "17k-bike-share-apis-for-agents"
+      ]
+    }
+  ],
+  "planned": [
+    {
+      "group": "special",
+      "repo": null,
+      "name": "Starter 1,000",
+      "build": "A first try for a new agent or app",
+      "note": "Chosen by stated criteria: no key, JSON body, most recently passed, and the widest coverage of services and country codes.",
+      "rule": null,
+      "count": null,
+      "status": "planned"
+    },
+    {
+      "group": "special",
+      "repo": null,
+      "name": "Country packs",
+      "build": "Agents and apps for one country or region",
+      "note": "Planned: USA, UK, EU and Japan. India is live.",
+      "rule": null,
+      "count": null,
+      "status": "planned"
+    },
+    {
+      "group": "special",
+      "repo": null,
+      "name": "New this week",
+      "build": "Keep a tool current with recently tested endpoints",
+      "note": "A rolling pack of the endpoints that passed most recently, refreshed with each snapshot.",
+      "rule": null,
+      "count": null,
+      "status": "planned"
+    }
+  ],
+  "shared_urls": {
+    "190k-weather-apis-for-agents": {
+      "190k-weather-apis-for-agents": 190644,
+      "270k-transit-apis-for-agents": 8851,
+      "270k-water-apis-for-agents": 17630,
+      "130k-finance-economy-apis-for-agents": 905,
+      "130k-india-apis-for-agents": 1869,
+      "1.3m-government-open-data-apis": 4943,
+      "290k-statistics-apis-for-agents": 1282,
+      "86k-oceans-apis-for-agents": 5687,
+      "24k-maritime-apis-for-agents": 468,
+      "170k-environment-apis-for-agents": 13423,
+      "20k-air-quality-apis-for-agents": 20830,
+      "380k-maps-gis-apis-for-agents": 1913,
+      "2.5m-agent-ready-apis": 130964,
+      "96k-health-apis-for-agents": 2989,
+      "380k-science-apis-for-agents": 3348,
+      "53k-hazards-apis-for-agents": 1549,
+      "6.5k-wildfire-apis-for-agents": 141,
+      "72k-energy-apis-for-agents": 2642,
+      "25k-aviation-apis-for-agents": 10061,
+      "24k-traffic-apis-for-agents": 284,
+      "12k-parking-apis-for-agents": 104,
+      "10k-earthquake-apis-for-agents": 121,
+      "5.2k-volcano-tsunami-apis-for-agents": 46,
+      "17k-bike-share-apis-for-agents": 2
+    },
+    "270k-transit-apis-for-agents": {
+      "190k-weather-apis-for-agents": 8851,
+      "270k-transit-apis-for-agents": 271658,
+      "270k-water-apis-for-agents": 2556,
+      "130k-finance-economy-apis-for-agents": 2621,
+      "130k-india-apis-for-agents": 435,
+      "1.3m-government-open-data-apis": 22366,
+      "290k-statistics-apis-for-agents": 586,
+      "86k-oceans-apis-for-agents": 1384,
+      "24k-maritime-apis-for-agents": 1949,
+      "170k-environment-apis-for-agents": 405,
+      "20k-air-quality-apis-for-agents": 6112,
+      "380k-maps-gis-apis-for-agents": 4619,
+      "2.5m-agent-ready-apis": 196830,
+      "96k-health-apis-for-agents": 271,
+      "380k-science-apis-for-agents": 133,
+      "53k-hazards-apis-for-agents": 379,
+      "6.5k-wildfire-apis-for-agents": 14,
+      "72k-energy-apis-for-agents": 132,
+      "25k-aviation-apis-for-agents": 1183,
+      "24k-traffic-apis-for-agents": 24641,
+      "12k-parking-apis-for-agents": 12327,
+      "10k-earthquake-apis-for-agents": 34,
+      "5.2k-volcano-tsunami-apis-for-agents": 64,
+      "17k-bike-share-apis-for-agents": 17121
+    },
+    "270k-water-apis-for-agents": {
+      "190k-weather-apis-for-agents": 17630,
+      "270k-transit-apis-for-agents": 2556,
+      "270k-water-apis-for-agents": 279947,
+      "130k-finance-economy-apis-for-agents": 1084,
+      "130k-india-apis-for-agents": 1810,
+      "1.3m-government-open-data-apis": 2525,
+      "290k-statistics-apis-for-agents": 172,
+      "86k-oceans-apis-for-agents": 86107,
+      "24k-maritime-apis-for-agents": 3104,
+      "170k-environment-apis-for-agents": 4612,
+      "20k-air-quality-apis-for-agents": 400,
+      "380k-maps-gis-apis-for-agents": 3014,
+      "2.5m-agent-ready-apis": 226036,
+      "96k-health-apis-for-agents": 156,
+      "380k-science-apis-for-agents": 6521,
+      "53k-hazards-apis-for-agents": 6148,
+      "6.5k-wildfire-apis-for-agents": 80,
+      "72k-energy-apis-for-agents": 195,
+      "25k-aviation-apis-for-agents": 254,
+      "24k-traffic-apis-for-agents": 1129,
+      "12k-parking-apis-for-agents": 114,
+      "10k-earthquake-apis-for-agents": 226,
+      "5.2k-volcano-tsunami-apis-for-agents": 166,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "130k-finance-economy-apis-for-agents": {
+      "190k-weather-apis-for-agents": 905,
+      "270k-transit-apis-for-agents": 2621,
+      "270k-water-apis-for-agents": 1084,
+      "130k-finance-economy-apis-for-agents": 130603,
+      "130k-india-apis-for-agents": 4551,
+      "1.3m-government-open-data-apis": 8283,
+      "290k-statistics-apis-for-agents": 34394,
+      "86k-oceans-apis-for-agents": 805,
+      "24k-maritime-apis-for-agents": 66,
+      "170k-environment-apis-for-agents": 1448,
+      "20k-air-quality-apis-for-agents": 16,
+      "380k-maps-gis-apis-for-agents": 1194,
+      "2.5m-agent-ready-apis": 89012,
+      "96k-health-apis-for-agents": 1139,
+      "380k-science-apis-for-agents": 5730,
+      "53k-hazards-apis-for-agents": 116,
+      "6.5k-wildfire-apis-for-agents": 8,
+      "72k-energy-apis-for-agents": 1446,
+      "25k-aviation-apis-for-agents": 22,
+      "24k-traffic-apis-for-agents": 125,
+      "12k-parking-apis-for-agents": 13,
+      "10k-earthquake-apis-for-agents": 13,
+      "5.2k-volcano-tsunami-apis-for-agents": 33,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "130k-india-apis-for-agents": {
+      "190k-weather-apis-for-agents": 1869,
+      "270k-transit-apis-for-agents": 435,
+      "270k-water-apis-for-agents": 1810,
+      "130k-finance-economy-apis-for-agents": 4551,
+      "130k-india-apis-for-agents": 131489,
+      "1.3m-government-open-data-apis": 5038,
+      "290k-statistics-apis-for-agents": 1995,
+      "86k-oceans-apis-for-agents": 1115,
+      "24k-maritime-apis-for-agents": 18,
+      "170k-environment-apis-for-agents": 587,
+      "20k-air-quality-apis-for-agents": 12,
+      "380k-maps-gis-apis-for-agents": 6260,
+      "2.5m-agent-ready-apis": 32824,
+      "96k-health-apis-for-agents": 2107,
+      "380k-science-apis-for-agents": 109513,
+      "53k-hazards-apis-for-agents": 62,
+      "6.5k-wildfire-apis-for-agents": 2,
+      "72k-energy-apis-for-agents": 63,
+      "25k-aviation-apis-for-agents": 319,
+      "24k-traffic-apis-for-agents": 59,
+      "12k-parking-apis-for-agents": 29,
+      "10k-earthquake-apis-for-agents": 13,
+      "5.2k-volcano-tsunami-apis-for-agents": 0,
+      "17k-bike-share-apis-for-agents": 8
+    },
+    "1.3m-government-open-data-apis": {
+      "190k-weather-apis-for-agents": 4943,
+      "270k-transit-apis-for-agents": 22366,
+      "270k-water-apis-for-agents": 2525,
+      "130k-finance-economy-apis-for-agents": 8283,
+      "130k-india-apis-for-agents": 5038,
+      "1.3m-government-open-data-apis": 1329192,
+      "290k-statistics-apis-for-agents": 0,
+      "86k-oceans-apis-for-agents": 1157,
+      "24k-maritime-apis-for-agents": 0,
+      "170k-environment-apis-for-agents": 0,
+      "20k-air-quality-apis-for-agents": 365,
+      "380k-maps-gis-apis-for-agents": 0,
+      "2.5m-agent-ready-apis": 1008314,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 0,
+      "53k-hazards-apis-for-agents": 0,
+      "6.5k-wildfire-apis-for-agents": 85,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 0,
+      "24k-traffic-apis-for-agents": 199,
+      "12k-parking-apis-for-agents": 846,
+      "10k-earthquake-apis-for-agents": 160,
+      "5.2k-volcano-tsunami-apis-for-agents": 115,
+      "17k-bike-share-apis-for-agents": 26
+    },
+    "290k-statistics-apis-for-agents": {
+      "190k-weather-apis-for-agents": 1282,
+      "270k-transit-apis-for-agents": 586,
+      "270k-water-apis-for-agents": 172,
+      "130k-finance-economy-apis-for-agents": 34394,
+      "130k-india-apis-for-agents": 1995,
+      "1.3m-government-open-data-apis": 0,
+      "290k-statistics-apis-for-agents": 292624,
+      "86k-oceans-apis-for-agents": 82,
+      "24k-maritime-apis-for-agents": 0,
+      "170k-environment-apis-for-agents": 0,
+      "20k-air-quality-apis-for-agents": 20,
+      "380k-maps-gis-apis-for-agents": 0,
+      "2.5m-agent-ready-apis": 206713,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 0,
+      "53k-hazards-apis-for-agents": 0,
+      "6.5k-wildfire-apis-for-agents": 2,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 0,
+      "24k-traffic-apis-for-agents": 17,
+      "12k-parking-apis-for-agents": 0,
+      "10k-earthquake-apis-for-agents": 14,
+      "5.2k-volcano-tsunami-apis-for-agents": 1,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "86k-oceans-apis-for-agents": {
+      "190k-weather-apis-for-agents": 5687,
+      "270k-transit-apis-for-agents": 1384,
+      "270k-water-apis-for-agents": 86107,
+      "130k-finance-economy-apis-for-agents": 805,
+      "130k-india-apis-for-agents": 1115,
+      "1.3m-government-open-data-apis": 1157,
+      "290k-statistics-apis-for-agents": 82,
+      "86k-oceans-apis-for-agents": 86107,
+      "24k-maritime-apis-for-agents": 2484,
+      "170k-environment-apis-for-agents": 4201,
+      "20k-air-quality-apis-for-agents": 25,
+      "380k-maps-gis-apis-for-agents": 1729,
+      "2.5m-agent-ready-apis": 68292,
+      "96k-health-apis-for-agents": 6,
+      "380k-science-apis-for-agents": 3814,
+      "53k-hazards-apis-for-agents": 549,
+      "6.5k-wildfire-apis-for-agents": 6,
+      "72k-energy-apis-for-agents": 66,
+      "25k-aviation-apis-for-agents": 31,
+      "24k-traffic-apis-for-agents": 970,
+      "12k-parking-apis-for-agents": 5,
+      "10k-earthquake-apis-for-agents": 90,
+      "5.2k-volcano-tsunami-apis-for-agents": 64,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "24k-maritime-apis-for-agents": {
+      "190k-weather-apis-for-agents": 468,
+      "270k-transit-apis-for-agents": 1949,
+      "270k-water-apis-for-agents": 3104,
+      "130k-finance-economy-apis-for-agents": 66,
+      "130k-india-apis-for-agents": 18,
+      "1.3m-government-open-data-apis": 0,
+      "290k-statistics-apis-for-agents": 0,
+      "86k-oceans-apis-for-agents": 2484,
+      "24k-maritime-apis-for-agents": 24827,
+      "170k-environment-apis-for-agents": 0,
+      "20k-air-quality-apis-for-agents": 123,
+      "380k-maps-gis-apis-for-agents": 0,
+      "2.5m-agent-ready-apis": 14548,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 0,
+      "53k-hazards-apis-for-agents": 0,
+      "6.5k-wildfire-apis-for-agents": 4,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 0,
+      "24k-traffic-apis-for-agents": 1307,
+      "12k-parking-apis-for-agents": 60,
+      "10k-earthquake-apis-for-agents": 115,
+      "5.2k-volcano-tsunami-apis-for-agents": 27,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "170k-environment-apis-for-agents": {
+      "190k-weather-apis-for-agents": 13423,
+      "270k-transit-apis-for-agents": 405,
+      "270k-water-apis-for-agents": 4612,
+      "130k-finance-economy-apis-for-agents": 1448,
+      "130k-india-apis-for-agents": 587,
+      "1.3m-government-open-data-apis": 0,
+      "290k-statistics-apis-for-agents": 0,
+      "86k-oceans-apis-for-agents": 4201,
+      "24k-maritime-apis-for-agents": 0,
+      "170k-environment-apis-for-agents": 174406,
+      "20k-air-quality-apis-for-agents": 12408,
+      "380k-maps-gis-apis-for-agents": 0,
+      "2.5m-agent-ready-apis": 117721,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 0,
+      "53k-hazards-apis-for-agents": 0,
+      "6.5k-wildfire-apis-for-agents": 40,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 0,
+      "24k-traffic-apis-for-agents": 11,
+      "12k-parking-apis-for-agents": 1,
+      "10k-earthquake-apis-for-agents": 36,
+      "5.2k-volcano-tsunami-apis-for-agents": 0,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "20k-air-quality-apis-for-agents": {
+      "190k-weather-apis-for-agents": 20830,
+      "270k-transit-apis-for-agents": 6112,
+      "270k-water-apis-for-agents": 400,
+      "130k-finance-economy-apis-for-agents": 16,
+      "130k-india-apis-for-agents": 12,
+      "1.3m-government-open-data-apis": 365,
+      "290k-statistics-apis-for-agents": 20,
+      "86k-oceans-apis-for-agents": 25,
+      "24k-maritime-apis-for-agents": 123,
+      "170k-environment-apis-for-agents": 12408,
+      "20k-air-quality-apis-for-agents": 20830,
+      "380k-maps-gis-apis-for-agents": 560,
+      "2.5m-agent-ready-apis": 10830,
+      "96k-health-apis-for-agents": 184,
+      "380k-science-apis-for-agents": 86,
+      "53k-hazards-apis-for-agents": 57,
+      "6.5k-wildfire-apis-for-agents": 15,
+      "72k-energy-apis-for-agents": 117,
+      "25k-aviation-apis-for-agents": 14,
+      "24k-traffic-apis-for-agents": 30,
+      "12k-parking-apis-for-agents": 1,
+      "10k-earthquake-apis-for-agents": 0,
+      "5.2k-volcano-tsunami-apis-for-agents": 0,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "380k-maps-gis-apis-for-agents": {
+      "190k-weather-apis-for-agents": 1913,
+      "270k-transit-apis-for-agents": 4619,
+      "270k-water-apis-for-agents": 3014,
+      "130k-finance-economy-apis-for-agents": 1194,
+      "130k-india-apis-for-agents": 6260,
+      "1.3m-government-open-data-apis": 0,
+      "290k-statistics-apis-for-agents": 0,
+      "86k-oceans-apis-for-agents": 1729,
+      "24k-maritime-apis-for-agents": 0,
+      "170k-environment-apis-for-agents": 0,
+      "20k-air-quality-apis-for-agents": 560,
+      "380k-maps-gis-apis-for-agents": 387310,
+      "2.5m-agent-ready-apis": 247162,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 0,
+      "53k-hazards-apis-for-agents": 0,
+      "6.5k-wildfire-apis-for-agents": 26,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 0,
+      "24k-traffic-apis-for-agents": 1833,
+      "12k-parking-apis-for-agents": 146,
+      "10k-earthquake-apis-for-agents": 83,
+      "5.2k-volcano-tsunami-apis-for-agents": 4,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "2.5m-agent-ready-apis": {
+      "190k-weather-apis-for-agents": 130964,
+      "270k-transit-apis-for-agents": 196830,
+      "270k-water-apis-for-agents": 226036,
+      "130k-finance-economy-apis-for-agents": 89012,
+      "130k-india-apis-for-agents": 32824,
+      "1.3m-government-open-data-apis": 1008314,
+      "290k-statistics-apis-for-agents": 206713,
+      "86k-oceans-apis-for-agents": 68292,
+      "24k-maritime-apis-for-agents": 14548,
+      "170k-environment-apis-for-agents": 117721,
+      "20k-air-quality-apis-for-agents": 10830,
+      "380k-maps-gis-apis-for-agents": 247162,
+      "2.5m-agent-ready-apis": 2518343,
+      "96k-health-apis-for-agents": 68037,
+      "380k-science-apis-for-agents": 206647,
+      "53k-hazards-apis-for-agents": 45322,
+      "6.5k-wildfire-apis-for-agents": 6146,
+      "72k-energy-apis-for-agents": 51239,
+      "25k-aviation-apis-for-agents": 23300,
+      "24k-traffic-apis-for-agents": 14404,
+      "12k-parking-apis-for-agents": 10126,
+      "10k-earthquake-apis-for-agents": 8696,
+      "5.2k-volcano-tsunami-apis-for-agents": 3371,
+      "17k-bike-share-apis-for-agents": 16136
+    },
+    "96k-health-apis-for-agents": {
+      "190k-weather-apis-for-agents": 2989,
+      "270k-transit-apis-for-agents": 271,
+      "270k-water-apis-for-agents": 156,
+      "130k-finance-economy-apis-for-agents": 1139,
+      "130k-india-apis-for-agents": 2107,
+      "1.3m-government-open-data-apis": 0,
+      "290k-statistics-apis-for-agents": 0,
+      "86k-oceans-apis-for-agents": 6,
+      "24k-maritime-apis-for-agents": 0,
+      "170k-environment-apis-for-agents": 0,
+      "20k-air-quality-apis-for-agents": 184,
+      "380k-maps-gis-apis-for-agents": 0,
+      "2.5m-agent-ready-apis": 68037,
+      "96k-health-apis-for-agents": 96866,
+      "380k-science-apis-for-agents": 0,
+      "53k-hazards-apis-for-agents": 0,
+      "6.5k-wildfire-apis-for-agents": 0,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 0,
+      "24k-traffic-apis-for-agents": 132,
+      "12k-parking-apis-for-agents": 1,
+      "10k-earthquake-apis-for-agents": 3,
+      "5.2k-volcano-tsunami-apis-for-agents": 0,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "380k-science-apis-for-agents": {
+      "190k-weather-apis-for-agents": 3348,
+      "270k-transit-apis-for-agents": 133,
+      "270k-water-apis-for-agents": 6521,
+      "130k-finance-economy-apis-for-agents": 5730,
+      "130k-india-apis-for-agents": 109513,
+      "1.3m-government-open-data-apis": 0,
+      "290k-statistics-apis-for-agents": 0,
+      "86k-oceans-apis-for-agents": 3814,
+      "24k-maritime-apis-for-agents": 0,
+      "170k-environment-apis-for-agents": 0,
+      "20k-air-quality-apis-for-agents": 86,
+      "380k-maps-gis-apis-for-agents": 0,
+      "2.5m-agent-ready-apis": 206647,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 384890,
+      "53k-hazards-apis-for-agents": 0,
+      "6.5k-wildfire-apis-for-agents": 152,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 0,
+      "24k-traffic-apis-for-agents": 61,
+      "12k-parking-apis-for-agents": 0,
+      "10k-earthquake-apis-for-agents": 100,
+      "5.2k-volcano-tsunami-apis-for-agents": 79,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "53k-hazards-apis-for-agents": {
+      "190k-weather-apis-for-agents": 1549,
+      "270k-transit-apis-for-agents": 379,
+      "270k-water-apis-for-agents": 6148,
+      "130k-finance-economy-apis-for-agents": 116,
+      "130k-india-apis-for-agents": 62,
+      "1.3m-government-open-data-apis": 0,
+      "290k-statistics-apis-for-agents": 0,
+      "86k-oceans-apis-for-agents": 549,
+      "24k-maritime-apis-for-agents": 0,
+      "170k-environment-apis-for-agents": 0,
+      "20k-air-quality-apis-for-agents": 57,
+      "380k-maps-gis-apis-for-agents": 0,
+      "2.5m-agent-ready-apis": 45322,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 0,
+      "53k-hazards-apis-for-agents": 53354,
+      "6.5k-wildfire-apis-for-agents": 6246,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 0,
+      "24k-traffic-apis-for-agents": 83,
+      "12k-parking-apis-for-agents": 39,
+      "10k-earthquake-apis-for-agents": 10315,
+      "5.2k-volcano-tsunami-apis-for-agents": 5042,
+      "17k-bike-share-apis-for-agents": 1
+    },
+    "6.5k-wildfire-apis-for-agents": {
+      "190k-weather-apis-for-agents": 141,
+      "270k-transit-apis-for-agents": 14,
+      "270k-water-apis-for-agents": 80,
+      "130k-finance-economy-apis-for-agents": 8,
+      "130k-india-apis-for-agents": 2,
+      "1.3m-government-open-data-apis": 85,
+      "290k-statistics-apis-for-agents": 2,
+      "86k-oceans-apis-for-agents": 6,
+      "24k-maritime-apis-for-agents": 4,
+      "170k-environment-apis-for-agents": 40,
+      "20k-air-quality-apis-for-agents": 15,
+      "380k-maps-gis-apis-for-agents": 26,
+      "2.5m-agent-ready-apis": 6146,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 152,
+      "53k-hazards-apis-for-agents": 6246,
+      "6.5k-wildfire-apis-for-agents": 6584,
+      "72k-energy-apis-for-agents": 1,
+      "25k-aviation-apis-for-agents": 12,
+      "24k-traffic-apis-for-agents": 0,
+      "12k-parking-apis-for-agents": 0,
+      "10k-earthquake-apis-for-agents": 33,
+      "5.2k-volcano-tsunami-apis-for-agents": 0,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "72k-energy-apis-for-agents": {
+      "190k-weather-apis-for-agents": 2642,
+      "270k-transit-apis-for-agents": 132,
+      "270k-water-apis-for-agents": 195,
+      "130k-finance-economy-apis-for-agents": 1446,
+      "130k-india-apis-for-agents": 63,
+      "1.3m-government-open-data-apis": 0,
+      "290k-statistics-apis-for-agents": 0,
+      "86k-oceans-apis-for-agents": 66,
+      "24k-maritime-apis-for-agents": 0,
+      "170k-environment-apis-for-agents": 0,
+      "20k-air-quality-apis-for-agents": 117,
+      "380k-maps-gis-apis-for-agents": 0,
+      "2.5m-agent-ready-apis": 51239,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 0,
+      "53k-hazards-apis-for-agents": 0,
+      "6.5k-wildfire-apis-for-agents": 1,
+      "72k-energy-apis-for-agents": 72606,
+      "25k-aviation-apis-for-agents": 0,
+      "24k-traffic-apis-for-agents": 15,
+      "12k-parking-apis-for-agents": 0,
+      "10k-earthquake-apis-for-agents": 1,
+      "5.2k-volcano-tsunami-apis-for-agents": 0,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "25k-aviation-apis-for-agents": {
+      "190k-weather-apis-for-agents": 10061,
+      "270k-transit-apis-for-agents": 1183,
+      "270k-water-apis-for-agents": 254,
+      "130k-finance-economy-apis-for-agents": 22,
+      "130k-india-apis-for-agents": 319,
+      "1.3m-government-open-data-apis": 0,
+      "290k-statistics-apis-for-agents": 0,
+      "86k-oceans-apis-for-agents": 31,
+      "24k-maritime-apis-for-agents": 0,
+      "170k-environment-apis-for-agents": 0,
+      "20k-air-quality-apis-for-agents": 14,
+      "380k-maps-gis-apis-for-agents": 0,
+      "2.5m-agent-ready-apis": 23300,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 0,
+      "53k-hazards-apis-for-agents": 0,
+      "6.5k-wildfire-apis-for-agents": 12,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 25002,
+      "24k-traffic-apis-for-agents": 1026,
+      "12k-parking-apis-for-agents": 26,
+      "10k-earthquake-apis-for-agents": 8,
+      "5.2k-volcano-tsunami-apis-for-agents": 7,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "24k-traffic-apis-for-agents": {
+      "190k-weather-apis-for-agents": 284,
+      "270k-transit-apis-for-agents": 24641,
+      "270k-water-apis-for-agents": 1129,
+      "130k-finance-economy-apis-for-agents": 125,
+      "130k-india-apis-for-agents": 59,
+      "1.3m-government-open-data-apis": 199,
+      "290k-statistics-apis-for-agents": 17,
+      "86k-oceans-apis-for-agents": 970,
+      "24k-maritime-apis-for-agents": 1307,
+      "170k-environment-apis-for-agents": 11,
+      "20k-air-quality-apis-for-agents": 30,
+      "380k-maps-gis-apis-for-agents": 1833,
+      "2.5m-agent-ready-apis": 14404,
+      "96k-health-apis-for-agents": 132,
+      "380k-science-apis-for-agents": 61,
+      "53k-hazards-apis-for-agents": 83,
+      "6.5k-wildfire-apis-for-agents": 0,
+      "72k-energy-apis-for-agents": 15,
+      "25k-aviation-apis-for-agents": 1026,
+      "24k-traffic-apis-for-agents": 24641,
+      "12k-parking-apis-for-agents": 120,
+      "10k-earthquake-apis-for-agents": 1,
+      "5.2k-volcano-tsunami-apis-for-agents": 0,
+      "17k-bike-share-apis-for-agents": 13
+    },
+    "12k-parking-apis-for-agents": {
+      "190k-weather-apis-for-agents": 104,
+      "270k-transit-apis-for-agents": 12327,
+      "270k-water-apis-for-agents": 114,
+      "130k-finance-economy-apis-for-agents": 13,
+      "130k-india-apis-for-agents": 29,
+      "1.3m-government-open-data-apis": 846,
+      "290k-statistics-apis-for-agents": 0,
+      "86k-oceans-apis-for-agents": 5,
+      "24k-maritime-apis-for-agents": 60,
+      "170k-environment-apis-for-agents": 1,
+      "20k-air-quality-apis-for-agents": 1,
+      "380k-maps-gis-apis-for-agents": 146,
+      "2.5m-agent-ready-apis": 10126,
+      "96k-health-apis-for-agents": 1,
+      "380k-science-apis-for-agents": 0,
+      "53k-hazards-apis-for-agents": 39,
+      "6.5k-wildfire-apis-for-agents": 0,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 26,
+      "24k-traffic-apis-for-agents": 120,
+      "12k-parking-apis-for-agents": 12327,
+      "10k-earthquake-apis-for-agents": 0,
+      "5.2k-volcano-tsunami-apis-for-agents": 1,
+      "17k-bike-share-apis-for-agents": 3
+    },
+    "10k-earthquake-apis-for-agents": {
+      "190k-weather-apis-for-agents": 121,
+      "270k-transit-apis-for-agents": 34,
+      "270k-water-apis-for-agents": 226,
+      "130k-finance-economy-apis-for-agents": 13,
+      "130k-india-apis-for-agents": 13,
+      "1.3m-government-open-data-apis": 160,
+      "290k-statistics-apis-for-agents": 14,
+      "86k-oceans-apis-for-agents": 90,
+      "24k-maritime-apis-for-agents": 115,
+      "170k-environment-apis-for-agents": 36,
+      "20k-air-quality-apis-for-agents": 0,
+      "380k-maps-gis-apis-for-agents": 83,
+      "2.5m-agent-ready-apis": 8696,
+      "96k-health-apis-for-agents": 3,
+      "380k-science-apis-for-agents": 100,
+      "53k-hazards-apis-for-agents": 10315,
+      "6.5k-wildfire-apis-for-agents": 33,
+      "72k-energy-apis-for-agents": 1,
+      "25k-aviation-apis-for-agents": 8,
+      "24k-traffic-apis-for-agents": 1,
+      "12k-parking-apis-for-agents": 0,
+      "10k-earthquake-apis-for-agents": 10873,
+      "5.2k-volcano-tsunami-apis-for-agents": 468,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "5.2k-volcano-tsunami-apis-for-agents": {
+      "190k-weather-apis-for-agents": 46,
+      "270k-transit-apis-for-agents": 64,
+      "270k-water-apis-for-agents": 166,
+      "130k-finance-economy-apis-for-agents": 33,
+      "130k-india-apis-for-agents": 0,
+      "1.3m-government-open-data-apis": 115,
+      "290k-statistics-apis-for-agents": 1,
+      "86k-oceans-apis-for-agents": 64,
+      "24k-maritime-apis-for-agents": 27,
+      "170k-environment-apis-for-agents": 0,
+      "20k-air-quality-apis-for-agents": 0,
+      "380k-maps-gis-apis-for-agents": 4,
+      "2.5m-agent-ready-apis": 3371,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 79,
+      "53k-hazards-apis-for-agents": 5042,
+      "6.5k-wildfire-apis-for-agents": 0,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 7,
+      "24k-traffic-apis-for-agents": 0,
+      "12k-parking-apis-for-agents": 1,
+      "10k-earthquake-apis-for-agents": 468,
+      "5.2k-volcano-tsunami-apis-for-agents": 5280,
+      "17k-bike-share-apis-for-agents": 0
+    },
+    "17k-bike-share-apis-for-agents": {
+      "190k-weather-apis-for-agents": 2,
+      "270k-transit-apis-for-agents": 17121,
+      "270k-water-apis-for-agents": 0,
+      "130k-finance-economy-apis-for-agents": 0,
+      "130k-india-apis-for-agents": 8,
+      "1.3m-government-open-data-apis": 26,
+      "290k-statistics-apis-for-agents": 0,
+      "86k-oceans-apis-for-agents": 0,
+      "24k-maritime-apis-for-agents": 0,
+      "170k-environment-apis-for-agents": 0,
+      "20k-air-quality-apis-for-agents": 0,
+      "380k-maps-gis-apis-for-agents": 0,
+      "2.5m-agent-ready-apis": 16136,
+      "96k-health-apis-for-agents": 0,
+      "380k-science-apis-for-agents": 0,
+      "53k-hazards-apis-for-agents": 1,
+      "6.5k-wildfire-apis-for-agents": 0,
+      "72k-energy-apis-for-agents": 0,
+      "25k-aviation-apis-for-agents": 0,
+      "24k-traffic-apis-for-agents": 13,
+      "12k-parking-apis-for-agents": 3,
+      "10k-earthquake-apis-for-agents": 0,
+      "5.2k-volcano-tsunami-apis-for-agents": 0,
+      "17k-bike-share-apis-for-agents": 17121
+    }
+  }
+}
