@@ -3,7 +3,7 @@
   "old_name": "2-million-api-endpoint-pack",
   "new_name": "10m-open-apis-for-ai-agents",
   "url": "https://github.com/agentpopulation/10m-open-apis-for-ai-agents",
-  "description": "Road to 10M open API endpoints for AI agents: 24 packs holding 3,533,583 endpoints that passed a keyless data call. CSV, CC BY 4.0.",
+  "description": "Road to 10M open API endpoints for AI agents: 50 packs holding 4,362,881 endpoints that passed a keyless data call. CSV, CC BY 4.0.",
   "homepage": "https://agentpopulation.com/apis",
   "topics": [
     "api-endpoints",
@@ -17,6 +17,8 @@
     "transit-data",
     "hydrology",
     "economic-data",
-    "india-data"
+    "india-data",
+    "country-data",
+    "arcgis"
   ]
 }

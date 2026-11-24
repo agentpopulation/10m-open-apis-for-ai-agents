@@ -16,7 +16,7 @@
 <rect x="64" y="236" width="424" height="18" rx="9" fill="#6366F1"/>
 <text x="64" y="286" font-size="19" font-weight="700" fill="#0F172A">So far: 7,072,562 passed (70%)</text>
 <text x="664" y="286" font-size="15" fill="#0F172A" fill-opacity="0.6" text-anchor="end">Target: 10M+</text>
-<text x="64" y="318" font-size="16" fill="#0F172A" fill-opacity="0.7">This release: 24 packs · 3,533,583 endpoints that passed a keyless data call</text>
+<text x="64" y="318" font-size="16" fill="#0F172A" fill-opacity="0.7">This release: 50 packs · 4,362,881 endpoints that passed a keyless data call</text>
 <rect x="820" y="52" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
 <g transform="translate(832 64) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M20 48h26a11 11 0 0 0 1-22 15 15 0 0 0-29-3 11 11 0 0 0 2 25z"/></g>
 <rect x="888" y="52" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
@@ -65,7 +65,7 @@
 <g transform="translate(1104 268) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><path d="M8 54l16-28h16l16 28z"/><path d="M28 20c-3-5 3-8 1-14"/><path d="M36 20c2-5 7-6 6-11"/></g>
 <rect x="1160" y="256" width="56" height="56" rx="16" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
 <g transform="translate(1172 268) scale(0.5000)" fill="none" stroke="#4F46E5" stroke-width="5.20" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="42" r="10"/><circle cx="48" cy="42" r="10"/><path d="M16 42l9-16h14l9 16"/><path d="M25 26l11 16h-20"/><path d="M34 18h7"/></g>
-<text x="1216" y="334" font-size="14" fill="#0F172A" fill-opacity="0.6" text-anchor="end">24 topic packs · CC BY 4.0</text>
+<text x="1216" y="334" font-size="14" fill="#0F172A" fill-opacity="0.6" text-anchor="end">50 topic packs · CC BY 4.0</text>
 <line x1="64" y1="366" x2="1216" y2="366" stroke="#E2E8F0" stroke-width="1.5"/>
 <text x="64" y="398" font-size="18" font-weight="700" fill="#C2410C">agentpopulation.com</text>
 <text x="270" y="398" font-size="15" fill="#0F172A" fill-opacity="0.6">@agentpopulation on X</text>
